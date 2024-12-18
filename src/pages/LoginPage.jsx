@@ -98,7 +98,7 @@ import { Tooltip } from "@material-tailwind/react";
                     <IoLogIn size={30}/>
                   </button>
                 </Tooltip>
-               <ReCaptcha sitekey='6LcqG5wqAAAAAKUIB8qZ5CC9Ql74lVVrSolTd5KT'
+               <ReCaptcha sitekey='6LcpSZ8qAAAAABzsyFXBVPWmZGGWyC-Pf63EZidK'
                         onChange={(value)=> setCaptchaValue(value)} 
                         aria-hidden="false"/>
             </form>

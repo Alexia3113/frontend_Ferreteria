@@ -9,7 +9,7 @@ function ProductCard({product}) {
     const { deleteProduct, carrito, addCarrito: addproduct} = useProducts();
     const {isAdmin}=useAuth();
 
-    const server = 'http://localhost:4000/img/'
+    const server = import.meta.env.VITE_URL_FERRE+"/img/"
 
     const addCarrito = () => {
         console.log("Agregar carrito", product);

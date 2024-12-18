@@ -8,7 +8,7 @@ import { Tooltip } from "@material-tailwind/react";
 
 
 function ProductsFormPage() {
-    const server = 'http://localhost:4000/img/'
+    const server = import.meta.env.VITE_URL_FERRE+"/img/"
     const {register,handleSubmit, control, setValue, formState:{errors}} = useForm({
         defaultValues:{
             name:'',

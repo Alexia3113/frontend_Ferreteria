@@ -7,8 +7,8 @@ export function CarritoPage() {
 const {carrito, deleteCarrito}= useProducts();
 console.log(carrito);
 
-const server = 'http://localhost:4000/img/'
-  return (
+const server = import.meta.env.VITE_URL_FERRE+"/img/"
+return (
     <Card className="h-full w-full overflow-scroll">
       <table className="w-full min-w-max table-auto text-left">
         <thead>
